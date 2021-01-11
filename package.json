@@ -1,0 +1,26 @@
+{
+  "name": "node-pty-electron-example",
+  "version": "1.0.0",
+  "description": "A minimal node-pty Electron example",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/Tyriar/node-pty",
+  "author": "Tyriar",
+  "dependencies": {
+    "electron": "^9.1.0",
+    "jquery": "^3.5.1",
+    "jquery-ui-dist": "^1.12.1",
+    "jstree": "^3.3.10",
+    "monaco-editor": "^0.20.0",
+    "node-pty": "^0.9.0",
+    "os": "^0.1.1",
+    "xterm": "^4.8.1"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.11.0",
+    "electron-reload": "^1.5.0",
+    "xterm-addon-fit": "^0.4.0"
+  }
+}
